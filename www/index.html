@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <title>StunningCV | Abionkennie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="./css/app.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+        * {
+            font-family: 'Zen Old Mincho', serif !important;
+        }
+        
+        .app-android .app-topbar .forward-arrow {
+            float: right;
+            padding-left: 15 px;
+            padding-right: 15 px;
+            margin-right: 10px;
+            width: auto;
+            font-size: 19px;
+            font-weight: 700;
+            text-align: left;
+            line-height: 56px;
+            position: relative;
+        }
+        
+        .app-topbar {
+            background-color: rgb(26, 4, 26) !important;
+            height: 55px !important;
+        }
+        
+        .app-button.right {
+            padding: 0 16 px;
+            height: 56 px;
+            width: 24 px;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAQAAADlauupAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQflChkWFiGlplpuAAAAfUlEQVQ4y9WSMQqDUBQE9wcRtLOXX+gBLL5nFOw8jqBHEmurNxapUgWfCMn2M7DLSn8RrK6xGP0CxhG2Des6p6AosGWBfcf6/rckGRajwjCIPP9ukBSOQ6oqhXnGUnpJ4F73KvtRgZQuwmV5E15XF/wWTNPNI7UtNI0Lfjwna3dxTRsD7LwAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMTAtMjVUMjI6MjI6MzMrMDA6MDCyenHBAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTEwLTI1VDIyOjIyOjMzKzAwOjAwwyfJfQAAAABJRU5ErkJggg==);
+            -webkit-background-size: 24 px 24 px;
+            background-size: 24 px 24 px;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app-page" data-page="home">
+        <div class="app-topbar">
+            <div class="app-title">Abiona Kehinde</div>
+            <div class="app-button right" data-target="page2"></div>
+        </div>
+        <div class="app-content">
+            <div class="app-section" style="background-color: inherit !important;">
+                <section class="showcase">
+                    <div class="showcase-text" style="color: rgb(241, 188, 13);">
+                        <h3 id="professional-title">Professional Summary</h3>
+                        <p id="professional-text">
+                            Software Engineer Intern dedicated to improving skills through hands-on learning and development work. Understands HTML5, JavaScript and CSS; Well-organized and collaborative team player with strong communication and analytical abilities</p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="app-page" data-page="page2">
+        <div class="app-topbar">
+            <div class="app-button left" data-back data-autotitle></div>
+            <div class="app-title">Bio Data</div>
+            <div class="app-button right" data-target="page3"></div>
+        </div>
+        <div class="app-content">
+            <div class="showcase-form card" style="margin: auto">
+                <h2>Bio Data</h2>
+                <div name="contact">
+                    <input type="hidden" name="div-name" value="contact" />
+
+                    <div class="form-control">
+                        <label>Nationality</label>
+                        <input type="text" name="name" value="Nigeria" readonly />
+                    </div>
+                    <div class="form-control">
+                        <label>Date of birth</label>
+                        <input type="text" name="dob" value="16/June/1991" readonly />
+                    </div>
+                    <div class="form-control">
+                        <label>Gender</label>
+                        <input type="text" name="gender" value="Female" readonly />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="app-page" data-page="page3">
+        <div class="app-topbar">
+            <div class="app-button left" data-back data-autotitle></div>
+            <div class="app-title">Education</div>
+            <div class="app-button right" data-target="page4"></div>
+        </div>
+        <div class="app-content">
+            <section class="education" id="education">
+                <div class="heading-title">
+                    <h1 class="heading">
+                        <span>e</span>
+                        <span>d</span>
+                        <span>u</span>
+                        <span>c</span>
+                        <span>a</span>
+                        <span>t</span>
+                        <span>i</span>
+                        <span>o</span>
+                        <span>n</span>
+                    </h1>
+                </div>
+
+
+                <div class="container">
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <p>Federal University of Agriculture Abeokuta</p>
+                            <span class="degree-span">Bsc. Biochemistry</span>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px;">2014 - 2018</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <p>Akute Grammar School</p>
+                            <span class="degree-span">SSCE</span>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px;">2002 - 2008</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <p>Hubert Ogunde Memorial School</p>
+                            <span class="degree-span">  <p>Primary School Certificate</p></span>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px;">1996 - 2002</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <div class="app-page" data-page="page4">
+        <div class="app-topbar">
+            <div class="app-button left" data-back data-autotitle></div>
+            <div class="app-title">Work-Experience</div>
+            <div class="app-button right" data-target="page5"></div>
+        </div>
+        <div class="app-content">
+            <section class="Work-experience" id="Work-experience">
+                <div class="container">
+                    <h1 class="heading">
+
+                        <span>e</span>
+                        <span>x</span>
+                        <span>p</span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>i</span>
+                        <span>e</span>
+                        <span>n</span>
+                        <span>c</span>
+                        <span>e</span>
+                        <span>s</span>
+
+                    </h1>
+
+
+                    <div class="grid grid-6 text-left my-4" id="info">
+                        <div>
+                            <h2>Solastics Technologies Ltd – Software intern</h2>
+                            <span class="degree-span">Itire, Lagos</span>
+                            <ul>
+                                <li>Learnt the basics of web design and development</li>
+                                <li>Worked on peripheral tasks to get familiar with the tools and technologies for web design</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px; font-weight: bold; "> 01/2021 – Till date</p>
+
+                        </div>
+                    </div>
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <h2>Abirot Pharmaceuticals Limited - Healthcare Executive</h2>
+                            <span class="degree-span">Ikeja, Lagos</span>
+                            <ul>
+                                <li>Represented the company in health seminars and workshop</li>
+                                <li>Promoted the organization's product by visiting pharmacies, hospitals, and drug stores</li>
+                                <li>Ensured clients remit corresponding amounts for drugs ordered and supplied Company</li>
+                                <li>Consulted with healthcare professionals on business decisions</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px; font-weight: bold;"> 02/2020 - 11/2020</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <h2>Independent National Electoral Commission - Assistant Presiding Officer</h2>
+                            <span class="degree-span">  <p>Okenne, Kogi</p></span>
+                            <ul>
+                                <li>Supervised the conduct of all activities during polling, sorting and counted within the Voting Point (VP) I was assigned to.</li>
+                                <li>Acted on behalf of the PO at the Voting point.</li>
+                                <li>Regulated the conduct of voters at the VP</li>
+                                <li>Decided on all cases reported to me by the APO I, APO II and APO III</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px; font-weight: bold;"> 11/2019 - 11/2019</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <h2>National Youth Service Corps - Chemistry Teacher</h2>
+                            <span class="degree-span">Okenne, Kogi</span>
+                            <ul style="justify-content: left;">
+                                <li>Compiled lesson notes for the teaching of students in chemistry</li>
+                                <li>Prepared students for term exams. </li>
+                                <li>Incorporated exciting and engaging activities to achieve student participation.</li>
+                                <li>Communicated frequently with parents, students and faculty to provide <br> feedback and discuss instructional strategies</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px; font-weight: bold;"> 2018/2019</p>
+
+                        </div>
+                    </div>
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <h2>West African Examination Council - Examiner</h2>
+                            <span class="degree-span">Kabba, Kogi State</span>
+                            <ul>
+
+                                <li>Ensured that all examination materials are available</li>
+                                <li> Ensured that all students adhered to examination guidelines.</li>
+                                <li> Monitored students during tests</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px; font-weight: bold;"> 01/2021 – Till date</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="app-page" data-page="page5">
+        <div class="app-topbar">
+            <div class="app-button left" data-back data-autotitle></div>
+            <div class="app-title">References</div>
+            <div class="app-button right" data-target="page6"></div>
+        </div>
+        <div class="app-content">
+            <section class="referee" id="referee">
+                <div class="container">
+                    <h1 class="heading">
+                        <span>r</span>
+                        <span>e</span>
+                        <span>f</span>
+                        <span>e</span>
+                        <span>r</span>
+                        <span>e</span>
+                        <span>n</span>
+                        <span>c</span>
+                        <span>e</span>
+                        <span>s</span>
+
+                    </h1>
+
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <p> Mr Ibukun Sodipo</p>
+                            <span class="degree-span">Marketer, Zenith Bank</span>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px;">07065696058</p>
+                        </div>
+                    </div>
+                    <div class="grid grid-6 text-left my-4">
+                        <div>
+                            <p> Mr. Babatunde Daniel</p>
+                            <span class="degree-span">Senior Software Developer, VFD Group</span>
+                        </div>
+                        <div>
+                            <p style="margin-top: -5px;">07068566738</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </div>
+    <div class="app-page" data-page="page6">
+        <div class="app-topbar">
+            <div class="app-button left" data-back data-autotitle></div>
+            <div class="app-title">Contact</div>
+        </div>
+        <div class="app-content">
+            <section class="contact" id="contact">
+                <h1 class="heading">
+                    <span>c</span>
+                    <span>o</span>
+                    <span>n</span>
+                    <span>t</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>t</span>
+                </h1>
+
+                <div class="container">
+
+
+                    <div class="links">
+                        <ul>
+                            <li> <span class="column-text">Email</span>: abionkennie@gmail.com</li>
+                            <li> <span class="column-text">Phone number</span>: +2349038158732</li>
+                            <li><span class="column-text"> Residential address</span>: Itire, Lagos 100001</li>
+                            <li> <span class="column-text">Github</span>: https://github.com/abionkennie</li>
+                            <li> <span class="column-text">LinkedIn</span>: https://linkedin.com/in/abiona-kehinde-92138a181</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+
+            </section>
+            <footer class="footer">
+                <div class="container" style="overflow: hidden; text-align: center; margin: 20px">
+                    <div>
+                        <span class="credit">created by <span> kehinde Abiona</span> | all rights reserved!</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    </div>
+
+    <script src="cordova.js"></script>
+    <script src="./js/zepto.js"></script>
+    <script src="./js/app.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        App.controller('home', function(page) {
+            // put stuff here
+        });
+
+        App.controller('page2', function(page) {
+            // put stuff here
+        });
+
+        try {
+            App.restore();
+        } catch (err) {
+            App.load('home');
+        }
+    </script>
+</body>
+
+</html>
